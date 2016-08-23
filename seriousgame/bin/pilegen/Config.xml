@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environnement>
+	
+	<Dessinable>pilegen.Segment</Dessinable>
+	<Dessinable>pilegen.Point</Dessinable>
+	<Dessinable>pilegen.Point2</Dessinable>
+	
+	<Primitive>java.lang.Integer</Primitive>
+	<Primitive>int</Primitive>
+	<Primitive>java.lang.String</Primitive>
+	
+</Environnement>

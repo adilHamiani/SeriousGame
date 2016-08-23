@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/34/trunk/src/swingEditor
+END
+SchemaGraphComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/34/trunk/src/swingEditor/SchemaGraphComponent.java
+END
+EditorActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorActions.java
+END
+EditorPalette.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorPalette.java
+END
+EditorToolBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorToolBar.java
+END
+BasicGraphEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/trunk/src/swingEditor/BasicGraphEditor.java
+END
+SchemaEditorToolBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/34/trunk/src/swingEditor/SchemaEditorToolBar.java
+END
+EditorAboutFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorAboutFrame.java
+END
+ShadowBorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/trunk/src/swingEditor/ShadowBorder.java
+END
+EditorRuler.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorRuler.java
+END
+EditorMenuBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorMenuBar.java
+END
+JTableRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/trunk/src/swingEditor/JTableRenderer.java
+END
+SchemaEditorMenuBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/34/trunk/src/swingEditor/SchemaEditorMenuBar.java
+END
+EditorPopupMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorPopupMenu.java
+END
+GraphConfigDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/trunk/src/swingEditor/GraphConfigDialog.java
+END
+EditorKeyboardHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/trunk/src/swingEditor/EditorKeyboardHandler.java
+END
+DefaultFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/trunk/src/swingEditor/DefaultFileFilter.java
+END

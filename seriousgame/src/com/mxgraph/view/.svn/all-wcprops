@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view
+END
+mxSwimlaneManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxSwimlaneManager.java
+END
+mxTemporaryCellStates.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxTemporaryCellStates.java
+END
+mxMultiplicity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxMultiplicity.java
+END
+mxEdgeStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxEdgeStyle.java
+END
+mxGraphView.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxGraphView.java
+END
+mxConnectionConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxConnectionConstraint.java
+END
+mxCellState.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxCellState.java
+END
+mxGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxGraph.java
+END
+mxStyleRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxStyleRegistry.java
+END
+mxGraphSelectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxGraphSelectionModel.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/package.html
+END
+mxStylesheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxStylesheet.java
+END
+mxLayoutManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxLayoutManager.java
+END
+mxPerimeter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxPerimeter.java
+END
+mxSpaceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/131/trunk/src/com/mxgraph/view/mxSpaceManager.java
+END

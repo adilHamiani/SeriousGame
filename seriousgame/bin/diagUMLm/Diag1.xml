@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"  standalone="no"?>
+
+
+
+<diagramme>
+
+	<entite>
+	
+		<etiquette  id="1"  nom="Rectangle"  rang="2">
+			<attribut nom="point1" />
+			<attribut nom="point2" />
+			<attribut nom="point3" />
+			<attribut nom="point4" />
+		</etiquette>
+		
+		<etiquette  id="2"  nom="Ovale" rang="2" >
+			<attribut nom="point centre" />
+			
+		</etiquette>
+		
+		<etiquette  id="3"  nom="Carre" rang="3" >
+			<attribut nom="pnt1" />
+			<attribut nom="pnt2" />
+			<attribut nom="pnt3" />
+			<attribut nom="pnt4" />
+		</etiquette>
+		
+		<etiquette  id="4"  nom="Ellipse" rang="3" >
+			<attribut nom="rayon1" />
+			<attribut nom="rayon2" />
+		</etiquette>
+		
+		<etiquette  id="5"  nom="Ligne" rang="2" >
+			<attribut nom="pt1" />
+			<attribut nom="pt2" />		
+		</etiquette>
+		
+		<etiquette  id="6"  nom="Cercle" rang="3" >
+			<attribut nom="rayon" />
+		</etiquette>
+		
+		<etiquette  id="7"  nom="Forme" rang="1" />
+		
+	</entite>
+	
+	<liaison>
+	
+		<relation de="Carre" a="Rectangle" nature="" role="" multiplicite=""  />
+		<relation de="Rectangle" a="Forme"  nature="" role="" multiplicite=""  />
+		<relation de="Ovale" a="Forme" nature="" role="" multiplicite=""  />
+		<relation de="Cercle" a="Ovale" nature="heritage" role="sous type" multiplicite="1"  />
+		<relation de="Ligne" a="Forme"  nature="" role="" multiplicite="" />
+		<relation de="Ellipse" a="Ovale" nature="" role="" multiplicite=""  />
+		
+	</liaison>
+	
+	<Text>
+	
+		<texte enonce="Dans le domaine des mathématiques, la géométrie est composée de plusieurs formes.
+						Dans le domaine des mathématiques, la géométrie es
+						Dans le domaine des mathématiques, la géométrie es
+						Dans le domaine des mathématiques, la géométrie es
+						Dans le domaine des mathématiques, la géométrie es" />
+	
+	</Text>
+	   
+	   
+	   
+    
+</diagramme>
+

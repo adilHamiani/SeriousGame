@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.1" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="pilegraph.ParseurXML" project="Serious" 
+    file="/Serious/src/pilegraph/ParseurXML.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="852" y="64" width="354" height="257"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="pilegraph.Variable" project="Serious" file="/Serious/src/pilegraph/Variable.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position x="834" y="1804" width="571" height="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="pilegraph.Environnement" project="Serious" 
+    file="/Serious/src/pilegraph/Environnement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="326" y="788" width="489" height="747"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="pilegraph.RetourMethode" project="Serious" 
+    file="/Serious/src/pilegraph/RetourMethode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="855" y="788" width="231" height="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="pilegraph.DrawEnvironnementBis" project="Serious" 
+    file="/Serious/src/pilegraph/DrawEnvironnementBis.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="41" y="788" width="245" height="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="pilegraph.ChoixArguments" project="Serious" 
+    file="/Serious/src/pilegraph/ChoixArguments.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1126" y="788" width="349" height="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="pilegraph.GUI" project="Serious" file="/Serious/src/pilegraph/GUI.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position x="330" y="37" width="300" height="711"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="pilegraph.Poignee" project="Serious" file="/Serious/src/pilegraph/Poignee.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position x="431" y="1799" width="225" height="302"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="165" y="392"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="10" name="paintbis"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="13" name="pile"/>      
+      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="571" y="765"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="16" name="quarantine"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <bendpoint x="1299" y="392"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="19" name="choose"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <bendpoint x="737" y="1732"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="instances"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="25" name="poignees"/>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <bendpoint x="1301" y="1506"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="28" name="devantmeth"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <bendpoint x="379" y="772"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="31" name="envCourant"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="970" y="601"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="34" name="recupererRetourMeth"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <bendpoint x="725" y="2018"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="37" name="pointeVers"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <bendpoint x="931" y="1574"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="40" name="variableRetour"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="43" name="variablesMeres"/>      
+      <multiplicity id="44" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

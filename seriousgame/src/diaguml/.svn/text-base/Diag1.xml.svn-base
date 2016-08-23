@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"  standalone="no"?>
+
+
+
+<diagramme>
+
+	<entite>
+	
+		<etiquette  id="1"  nom="Rectangle"  rang="2">
+			<attribut nom="point1" />
+			<attribut nom="point2" />
+			<attribut nom="point3" />
+			<attribut nom="point4" />
+		</etiquette>
+		
+		<etiquette  id="2"  nom="Ovale" rang="2" >
+			<attribut nom="point centre" />
+			
+		</etiquette>
+		
+		<etiquette  id="3"  nom="Carre" rang="3" >
+			<attribut nom="pnt1" />
+			<attribut nom="pnt2" />
+			<attribut nom="pnt3" />
+			<attribut nom="pnt4" />
+		</etiquette>
+		
+		<etiquette  id="4"  nom="Ellipse" rang="3" >
+			<attribut nom="rayon1" />
+			<attribut nom="rayon2" />
+		</etiquette>
+		
+		<etiquette  id="5"  nom="Ligne" rang="2" >
+			<attribut nom="pt1" />
+			<attribut nom="pt2" />		
+		</etiquette>
+		
+		<etiquette  id="6"  nom="Cercle" rang="3" >
+			<attribut nom="rayon" />
+		</etiquette>
+		
+		<etiquette  id="7"  nom="Forme" rang="1" />
+		
+	</entite>
+	
+	<liaison>
+	
+		<relation de="Carre" a="Rectangle" nature="" role1="" multiplicite1="1" role2="" multiplicite2="156"  />
+		<relation de="Rectangle" a="Forme"  nature="" role1="" multiplicite1="4568" role2="" multiplicite2="1..*" />
+		<relation de="Ovale" a="Forme" nature="" role1="" multiplicite1="" role2="" multiplicite2="" />
+		<relation de="Cercle" a="Ovale" nature="heritage" role1="sous type"  multiplicite1="1..n" role2="" multiplicite2="1..n" />
+		<relation de="Ligne" a="Forme"  nature="" role1="" multiplicite1="" role2="" multiplicite2="" />
+		<relation de="Ellipse" a="Ovale" nature="" role1="" multiplicite1="" role2="" multiplicite2=""  />
+		
+	</liaison>
+	
+	<Text>
+	
+		<texte enonce= "ICI LE TEXTE DESCRIPTIF POUR CONSTRUIRE LE DIAGRAMME A PROPOS DES FORMES GEOMETRIQUES" />
+	
+	</Text>
+	   
+	   
+	   
+    
+</diagramme>
+
